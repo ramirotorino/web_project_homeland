@@ -36,6 +36,7 @@
   display: flex;
   margin: 0 auto;
   margin-bottom: 7%;
+  box-shadow: 10px 10px 25px 0px hsla(0, 0%, 0%, 0.5);
 }
 
 @media screen and (min-width: 1024px) {
@@ -43,60 +44,51 @@
 
 @media screen and (min-width: 544px) and (max-width: 1023px) {
   .header {
-    margin-left: 0;
   }
 
   .header__title {
+    font-family: "Inter";
     font-size: 75px;
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-    margin-bottom: 2%;
+    font-weight: bold;
   }
 
   .header__subtitle {
-    margin: auto;
-    width: 85%;
-    margin-bottom: 4%;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 1.5;
+    width: 80%;
   }
 
   .header__content {
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
+    margin: 0;
+  }
+
+  .header__content_image {
+    margin-bottom: 7%;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 543px) {
+@media screen and (max-width: 543px) {
   .header {
-    margin-left: 0;
   }
 
   .header__title {
+    width: 60%;
+    margin-bottom: 5%;
     font-size: 40px;
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-    margin-bottom: 3%;
   }
 
   .header__subtitle {
-    font-size: 16px;
-    margin: auto;
-    width: 85%;
+    width: 90%;
     margin-bottom: 10%;
+    font-size: 16px;
   }
 
   .header__content {
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
+    margin: 0;
   }
 
   .header__content_image {
     width: 100%;
-    height: 100%;
-    display: flex;
-    margin-bottom: 10%;
   }
 }

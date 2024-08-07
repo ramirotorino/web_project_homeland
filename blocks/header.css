@@ -43,9 +43,6 @@
 }
 
 @media screen and (min-width: 544px) and (max-width: 1023px) {
-  .header {
-  }
-
   .header__title {
     font-family: "Inter";
     font-size: 75px;
@@ -69,9 +66,6 @@
 }
 
 @media screen and (max-width: 543px) {
-  .header {
-  }
-
   .header__title {
     width: 60%;
     margin-bottom: 5%;

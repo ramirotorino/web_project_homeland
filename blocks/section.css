@@ -48,9 +48,6 @@
 }
 
 @media screen and (min-width: 544px) and (max-width: 1023px) {
-  .section {
-  }
-
   .section__title {
     font-size: 45px;
     width: 75%;

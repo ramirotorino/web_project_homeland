@@ -68,8 +68,6 @@
   line-height: 1.8;
   margin-top: 5%;
 }
-.button-link {
-}
 
 .section__place_button {
   margin: 0;
@@ -133,14 +131,8 @@
     grid-column: 2/3;
   }
 
-  .section__place_paragraph {
-  }
-
   .section__place_paragraph-2 {
     margin-bottom: 5%;
-  }
-
-  .section__place_paragraph-3 {
   }
 
   .section__place_button {

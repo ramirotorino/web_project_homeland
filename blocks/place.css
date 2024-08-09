@@ -44,25 +44,25 @@
   opacity: 50%;
 }
 
-.paragraph-place__section {
+.place-paragraph__section {
   margin: 0;
   width: 90%;
 }
 
-.paragraph-place__section {
+.place-paragraph__section {
   font-size: 18px;
   line-height: 1.8;
   margin: 0;
   margin-bottom: 5%;
 }
 
-.paragraph-place-2__section {
+.place-paragraph-2__section {
   font-size: 18px;
   margin: 0;
   line-height: 1.8;
 }
 
-.paragraph-place-3__section {
+.place-paragraph-3__section {
   font-size: 18px;
   margin: 0;
   line-height: 1.8;
@@ -125,7 +125,7 @@
     margin: 0;
   }
 
-  .paragraph-place__section {
+  .place-paragraph__section {
     margin: 0;
     grid-row: 2/4;
     grid-column: 2/3;
@@ -169,7 +169,7 @@
     margin-bottom: 5%;
   }
 
-  .paragraph-place__section {
+  .place-paragraph__section {
     margin-left: 4%;
   }
 

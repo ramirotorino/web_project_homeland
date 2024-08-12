@@ -1,4 +1,4 @@
-.photos__section {
+.photos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -6,7 +6,7 @@
   margin: 0 3% 0 3%;
 }
 
-.photos__image__section {
+.photos__image {
   margin: 0;
   width: 100%;
   min-height: 100%;
@@ -18,17 +18,17 @@
 }
 
 @media screen and (min-width: 544px) and (max-width: 1023px) {
-  .photos__section {
+  .photos {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 543px) {
-  .photos__section {
+  .photos {
     display: flex;
   }
 
-  .photos__image__section {
+  .photos__image {
     margin: 0;
     width: 100%;
     min-height: 100%;
